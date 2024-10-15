@@ -2,7 +2,7 @@
 AnimeWatch is a lightweight program for watching anime based on libcurl, libxml and Qt6.<br>Created only for educational purposes.
 ![Application](.github/screenshots/AnimeWatch_Overview.png)
 ## How it works
-When user is looking for a title, he is actually sumbitting request like 'https://animego.org/search/anime?q={title}' to the AnimeGO. Then the result of request is parsed with libxml and user receives episodes, dubs and links to episode.
+When user is looking for a title, he is actually submitting request like 'https://animego.org/search/anime?q={title}' to the AnimeGO. Then the result of request is parsed with libxml and user receives episodes, dubs and links to episode.
 
 ## How to watch
 AnimeWatch requires mpv media player to watch episodes. Another way out is to copy the link that appears after clicking on the dub.
