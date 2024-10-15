@@ -4,6 +4,7 @@
 #include "DubButton.h"
 #include "Kodik/include/Kodik_API.h"
 
+using namespace std;
 MainWindow::MainWindow(QWidget* parent):QMainWindow(parent){
 	QWidget* centralWidget=new QWidget(this);
 	containersStorage=new QStackedWidget(this);
